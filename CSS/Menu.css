@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+body {
+    background-color: rgb(255, 233, 247);
+} 
+
+nav {
+    width: 80%;
+    height: 43px;
+    margin: 30px auto 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+}
+
+nav a {
+    background-color: rgb(248, 170, 218);
+    color: #000;
+    border-radius: 10px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #000
+}
+
+nav a:hover {
+    background-color: rgb(248, 95, 125);
+    color: rgb(255, 151, 168)
+}
+
+.selecionada {
+    background-color: rgb(248, 95, 125);
+    color: rgb(255, 151, 168)
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    appearance: none;
+}
